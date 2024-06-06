@@ -36,7 +36,7 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Anos de 1989 até 2021
   + Órgão produtor: Ipea
-  + Limitações registradas: nenhuma até o momento
+  + Limitações registradas: Esse dataset possui alguns municípios a menos em relação ao total (faltam cerca de 60 municípios)
   + Cobertura: Municípios do Brasil
     
   ### > Dados Nacionais de Segurança Pública - Municípios
@@ -44,7 +44,7 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Anos de 2021
   + Órgão produtor: MJSP
-  + Limitações registradas: nenhuma até o momento
+  + Limitações registradas: Esse dataset possui alguns municípios a menos em relação ao total (faltam cerca de 60 municípios)
   + Cobertura: Municípios do Brasil 
 
   
