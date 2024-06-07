@@ -33,13 +33,17 @@
   + Cobertura: Municípios do Brasil
     
   ### > Taxas de Homicídios | Taxas de Homicídios (jovens)
-  + Fonte: [Instituto de Pesquisa Econômica Aplicada (Ipea) & Fórum Brasileiro de Segurança Pública](https://www.ipea.gov.br/atlasviolencia/filtros-series/1/homicidios) (Atlas da Violência v.2.7)
+  + Fonte: [MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade - SIM](https://www.ipea.gov.br/atlasviolencia/filtros-series/1/homicidios) (Ipea - Atlas da Violência v.2.7)
   + Data de Obtenção: 04/06/2024
-  + Período de Referência dos dados: Anos de 1989 até 2021
+  + Período de Referência dos dados: Anos de 1989 até 2021 (usamos apenas os dados de 2021)
   + Órgão produtor: Ipea
-  + Limitações registradas: Esse dataset possui alguns municípios a menos em relação ao total (faltam cerca de 60 municípios)
+  + Limitações registradas: Esse dataset possui alguns municípios a menos em relação ao total (faltam cerca de 60 municípios). Também não apresenta nenhum identificador do município além do nome. Isso torna impossível de tratar municípios de nomes idênticos caso pertençam a estados diferentes (além de exigir a tarefa trabalhosa de relacionar cada município de volta com seu respectivo estado)
   + Cobertura: Municípios do Brasil
-    
+  #### Características dos dados:
+  + Considera os óbitos da faixa etária de 15 a 29 anos sem distinção de gênero.
+  + Colunas:
+    + **sigla**, a sigla da unidade federativa (string de 2 caracteres)
+    + **mortes**, número inteiro representando a quantidade de homicídios.
   ### > Dados Nacionais de Segurança Pública - Municípios
   + Fonte: [Ministério da Justiça e Segurança Pública (MJSP)](https://dados.gov.br/dados/conjuntos-dados/sistema-nacional-de-estatisticas-de-seguranca-publica)
   + Data de Obtenção: 04/06/2024
