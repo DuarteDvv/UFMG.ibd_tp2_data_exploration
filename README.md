@@ -13,7 +13,7 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Ano de 2021
   + Órgão produtor: Inep
-  + Limitações registradas: nenhuma até o momento
+  + Limitações registradas: O arquivo do banco de dados foi disponibilizado em formato de excel, otimizado para leitura por um humano, e não por um computador: existem cabeçalhos misturados com os dados, os nulos não são vazios (são preenchidos como "--") e ocupam espaço, e existem muitas colunas redundantes (que são úteis para a leitura por um humano mas contém valores que podem ser deduzidos pelas outras colunas).
   + Cobertura: Municípios do Brasil 
   
   ### > Taxas de Distorção Idade-série
@@ -21,7 +21,7 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Ano de 2021
   + Órgão produtor: Inep
-  + Limitações registradas: nenhuma até o momento
+  + Limitações registradas: O arquivo do banco de dados foi disponibilizado em formato de excel, otimizado para leitura por um humano, e não por um computador: existem cabeçalhos misturados com os dados, os nulos não são vazios (são preenchidos como "--") e ocupam espaço, e existem muitas colunas redundantes (que são úteis para a leitura por um humano mas contém valores que podem ser deduzidos pelas outras colunas).
   + Cobertura: Municípios do Brasil 
  
   ### > Taxas de Rendimento Escolar
@@ -29,7 +29,7 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Ano de 2021
   + Órgão produtor: Inep
-  + Limitações registradas: nenhuma até o momento
+  + Limitações registradas: O arquivo do banco de dados foi disponibilizado em formato de excel, otimizado para leitura por um humano, e não por um computador: existem cabeçalhos misturados com os dados, os nulos não são vazios (são preenchidos como "--") e ocupam espaço, e existem muitas colunas redundantes (que são úteis para a leitura por um humano mas contém valores que podem ser deduzidos pelas outras colunas).
   + Cobertura: Municípios do Brasil
     
   ### > Taxas de Homicídios | Taxas de Homicídios (jovens)
@@ -49,11 +49,21 @@
   + Data de Obtenção: 04/06/2024
   + Período de Referência dos dados: Anos de 2021
   + Órgão produtor: MJSP
-  + Limitações registradas: Esse dataset possui alguns municípios a menos em relação ao total (faltam cerca de 60 municípios)
-  + Cobertura: Municípios do Brasil 
+  + Limitações registradas: Esse dataset possui pouquíssimos municípios em relação ao total (faltam quase todos os municípios). É difícil dizer se isso se dá por subnotificação de homicídios, se o método de coleta dos dados ignorou boa parte dos homicídios (banco ruim), ou se realmente não houveram homicídios dolosos em grande parte dos municípios.
+  + Cobertura: Alguns municípios do Brasil
+   + A coleta dos dados foi mensal, sendo apurados os dados dos 3 meses anteriores em relação à data de cada coleta
+   + As informações que subsidiam a produção das estatísticas oficiais são fornecidas pelos setores estaduais de estatística e unidades policiais através da Coordenação Geral de Estatística- CGEst, seguindo um fluxo que consiste nas seguintes etapas: Coleta de dados, validação e atualização.
+     + Para a coleta de dados, a CGEst utiliza os dados e informações de 02 sistemas: SINESPJC e Sinesp Integração.
+     + Mensalmente, os dados são retirados dos sistemas e são disponibilizados em formulário eletrônico para conferência e validação pelos setores de estatística das Unidades da Federação. Com o processo de validação finalizado, as tabelas são encaminhadas para atualização da base de dados e do painel público de dados nacionais de segurança pública.
+  #### Características dos dados:
+   + Os dados são uma relação temporal entre os municípios do brasil e o número de vítimas registradas num boletim de ocorrência caracterizada como homicídio doloso.
+   + Os dados foram validados pelos Gestores estaduais de estatística
+   + Variações entre os Totais por UF e Municípios podem ocorrer devido aos processos permanentes de coleta, tratamento e análise dos dados pelos gestores estaduais.
+   + Os dados registrados em data anterior à publicação da Portaria nº 229,de 10 de dezembro de 2018, não seguem a padronização contida no citado documento.
+   + Os dados registrados no 1º trimestre de 2019 no Amapá correspondem a um grau de cobertura 33% maior que os apresentados no 1º bimestre de 2018, devido ao avanço do processo de implantação no estado da solução Sinesp PPE;
+
+
 
   
 =======
-
-Objetivo desse projeto é explorar dados publicos e registrar os problemas encontrados nos dados e a correlação de violencia e educação
->>>>>>> main
+O objetivo desse projeto é explorar dados publicos, registrando os problemas encontrados nos dados e a correlação entre violência e educação no país.
