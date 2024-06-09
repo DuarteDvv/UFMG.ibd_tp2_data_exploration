@@ -1,6 +1,5 @@
 # ufmg_tp2_data_exploration
-<<<<<<< luis
-  Bancos de Dados ou algo assim: vitor consiga unidade de medida, viez, origem e processo de obtenção descrição !!!!!!!!!!!
+  Bancos de Dados ou algo assim: 
 
   Dicionário do banco de dados: https://docs.google.com/document/d/1jcfJAEqQk0MAtnWVjK--dplWNc-QfsWAp99TclBvFQ0/edit
   
