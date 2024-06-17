@@ -48,20 +48,34 @@
   ### > Dados Nacionais de Segurança Pública - Municípios
   + Fonte: [Ministério da Justiça e Segurança Pública (MJSP)](https://dados.gov.br/dados/conjuntos-dados/sistema-nacional-de-estatisticas-de-seguranca-publica)
   + Data de Obtenção: 04/06/2024
-  + Período de Referência dos dados: Anos de 2021
+  + Período de Referência dos dados: Ano de 2021
   + Órgão produtor: MJSP
   + Limitações registradas: Esse dataset possui pouquíssimos municípios em relação ao total (faltam quase todos os municípios). É difícil dizer se isso se dá por subnotificação de homicídios, se o método de coleta dos dados ignorou boa parte dos homicídios (banco ruim), ou se realmente não houveram homicídios dolosos em grande parte dos municípios.
   + Cobertura: Alguns municípios do Brasil
-   + A coleta dos dados foi mensal, sendo apurados os dados dos 3 meses anteriores em relação à data de cada coleta
-   + As informações que subsidiam a produção das estatísticas oficiais são fornecidas pelos setores estaduais de estatística e unidades policiais através da Coordenação Geral de Estatística- CGEst, seguindo um fluxo que consiste nas seguintes etapas: Coleta de dados, validação e atualização.
-     + Para a coleta de dados, a CGEst utiliza os dados e informações de 02 sistemas: SINESPJC e Sinesp Integração.
-     + Mensalmente, os dados são retirados dos sistemas e são disponibilizados em formulário eletrônico para conferência e validação pelos setores de estatística das Unidades da Federação. Com o processo de validação finalizado, as tabelas são encaminhadas para atualização da base de dados e do painel público de dados nacionais de segurança pública.
+  + A coleta dos dados foi mensal, sendo apurados os dados dos 3 meses anteriores em relação à data de cada coleta
+  + As informações que subsidiam a produção das estatísticas oficiais são fornecidas pelos setores estaduais de estatística e unidades policiais através da Coordenação Geral de Estatística- CGEst, seguindo um fluxo que consiste nas seguintes etapas: Coleta de dados, validação e atualização.
+  + Para a coleta de dados, a CGEst utiliza os dados e informações de 02 sistemas: SINESPJC e Sinesp Integração.
+  + Mensalmente, os dados são retirados dos sistemas e são disponibilizados em formulário eletrônico para conferência e validação pelos setores de estatística das Unidades da Federação. Com o processo de validação finalizado, as tabelas são encaminhadas para atualização da base de dados e do painel público de dados nacionais de segurança pública.
   #### Características dos dados:
-   + Os dados são uma relação temporal entre os municípios do brasil e o número de vítimas registradas num boletim de ocorrência caracterizada como homicídio doloso.
-   + Os dados foram validados pelos Gestores estaduais de estatística
-   + Variações entre os Totais por UF e Municípios podem ocorrer devido aos processos permanentes de coleta, tratamento e análise dos dados pelos gestores estaduais.
-   + Os dados registrados em data anterior à publicação da Portaria nº 229,de 10 de dezembro de 2018, não seguem a padronização contida no citado documento.
-   + Os dados registrados no 1º trimestre de 2019 no Amapá correspondem a um grau de cobertura 33% maior que os apresentados no 1º bimestre de 2018, devido ao avanço do processo de implantação no estado da solução Sinesp PPE;
+  + Os dados são uma relação temporal entre os municípios do brasil e o número de vítimas registradas num boletim de ocorrência caracterizada como homicídio doloso.
+  + Os dados foram validados pelos Gestores estaduais de estatística
+  + Variações entre os Totais por UF e Municípios podem ocorrer devido aos processos permanentes de coleta, tratamento e análise dos dados pelos gestores estaduais.
+  + Os dados registrados em data anterior à publicação da Portaria nº 229,de 10 de dezembro de 2018, não seguem a padronização contida no citado documento.
+  + Os dados registrados no 1º trimestre de 2019 no Amapá correspondem a um grau de cobertura 33% maior que os apresentados no 1º bimestre de 2018, devido ao avanço do processo de implantação no estado da solução Sinesp PPE;
+  
+  ### > Estimativas de População - Municípios
+  + Fonte: [Instituto Brasileiro de Geografia e Estatística - IBGE](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
+  + Data de Obtenção: 14/06/2024
+  + Período de Referência dos dados: Ano de 2021
+  + Órgão produtor: IBGE
+  + Limitações registradas: Uma quantidade significativa dos dados na coluna de população do dataset possui índices (exemplo: ' ¹ ') juntamente ao dado. Além disso, há a presença de um cabeçalho acima dos dados. Ambas essas características dificultam a formatação dos dados para uso com um SGBD.
+  + Cobertura: Todos os municípios do Brasil
+  + A metodologia adotada para estimar os contingentes populacionais dos municípios brasileiros baseia-se na relação da tendência de crescimento populacional do município, observada entre dois censos demográficos consecutivos, com a tendência de crescimento de uma área geográfica maior, as Unidades da Federação.
+    + O método adotado tem como princípio fundamental a subdivisão de uma área maior, em n áreas menores, de tal forma que seja assegurada ao final das estimativas das áreas menores a reprodução da estimativa, previamente conhecida, da área maior através da soma das estimativas das áreas menores.
+  #### Características dos dados:
+  + As estimativas municipais incorporam, ano a ano, remanejamento da população resultado de alterações de limite territorial que ocorrem entre os municípios.
+    + Dessa forma, a comparação histórica das estimativas anuais deve ser feita com cautela.
+  
 
 
 
