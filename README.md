@@ -1,8 +1,6 @@
 # ufmg_tp2_data_exploration
   Bancos de Dados ou algo assim: 
 
-  Dicionário do banco de dados: https://docs.google.com/document/d/1jcfJAEqQk0MAtnWVjK--dplWNc-QfsWAp99TclBvFQ0/edit
-  Relatório parte 4 (Felipe): https://docs.google.com/document/d/102jFF1YzHB5xOjNGJ282vh31k1i6RYojkROXX2gv-_E/edit
   ![image](https://github.com/DuarteDvv/UFMG.ibd_tp2_data_exploration/assets/140446172/04e7fce0-7487-4fed-a535-e95590b57933)
 
 # Metadados do projeto:
